@@ -22,5 +22,13 @@ export async function user(userId: number) {
     );
   });
 
+   _user.get("/getLastReceivedMessage", (req, res) => {
+    res.status(200).json({ result: null});
+  });
+
+  _user.get("/getLastSentMessage", (req , res) => {
+    res.status(200).json({ result: null});
+  });
+
   return server;
 }
