@@ -1,0 +1,23 @@
+{
+  "name": "simple-onion-router-network",
+  "version": "1.0.0",
+  "description": "Simple Tor network implemenation",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "ts-node src/start.ts"
+  },
+  "author": "Baptiste Florentin",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
