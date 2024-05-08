@@ -1,10 +1,4 @@
-# simple-onion-router-network
-
-Your goal for this exercise is to implement a version of the onion routing protocol we saw in module 5.
-
-This repository already implements the basic structure you need for the onion routing network, your goal will be to implement the inner workings of the protocol.
-
-Note that to simplify this implementation we won't be covering responses. This means that the network will only be used to send messages, i.e. requests shouldn't expect a response from the destination.
+# Simple-onion-router-network
 
 ## The basic structure
 
@@ -48,11 +42,3 @@ There are two ways to achieve this.
 ## Onion routing protocol
 
 Follow the [step by step instructions](./instructions.md) to complete this workshop.
-
-## Grading
-
-You are graded out of 20 points based on the unit tests provided in the `__test__/tests/` directory. 
-
-Note that not all tests are provided so you can secure a number of points but the rest will be graded after you submit the exercise.
-
-This exercise should be completed individually, you are not allowed to reuse code from other students. Any detected instances of copied code will incur a reduction of your grade.
